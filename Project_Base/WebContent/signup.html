@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SignUp</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="views/images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="views/images/icons/favicon.png">
+<link rel="apple-touch-icon" sizes="72x72"
+	href="views/images/icons/favicon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114"
+	href="images/icons/favicon-114x114.png">
+<!--Loading bootstrap css-->
+<link type="text/css" rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+<link type="text/css" rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/jquery-ui-1.10.4.custom.min.css">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/font-awesome.min.css">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="views/styles/animate.css">
+<link type="text/css" rel="stylesheet" href="views/styles/all.css">
+<link type="text/css" rel="stylesheet" href="views/styles/main.css">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/style-responsive.css">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/zabuto_calendar.min.css">
+<link type="text/css" rel="stylesheet" href="views/styles/pace.css">
+<link type="text/css" rel="stylesheet"
+	href="views/styles/jquery.news-ticker.css">
+</head>
+<body>
+	<div>
+		<div id="page-wrapper">
+			<div class="page-content">
+				<div id="tab-general">
+					<div class="row mbl">
+						<div class="col-lg-12">
+							<div class="col-md-12">
+								<div id="area-chart-spline"
+									style="width: 100%; height: 300px; display: none;"></div>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="panel panel-orange">
+										<div class="panel-heading">SignUp form</div>
+										<div class="panel-body pan">
+											<form action="SignUp.do" method="post">
+												<div class="form-body pal">
+													<div class="form-group">
+														<div class="input-icon right">
+															<i class="fa fa-user"></i> <input name="inputUsername"
+																type="text" placeholder="Username" class="form-control"
+																required />
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-icon right">
+															<i class="fa fa-envelope"></i> <input name="inputEmail"
+																type="text" placeholder="Email address"
+																class="form-control" required />
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-icon right">
+															<i class="fa fa-lock"></i> <input name="inputPassword"
+																type="password" placeholder="Password"
+																class="form-control" required />
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-icon right">
+															<i class="fa fa-lock"></i> <input
+																name="inputConfirmPassword" type="password"
+																placeholder="Confirm Password" class="form-control"
+																required />
+														</div>
+													</div>
+													<hr />
+													<div class="row">
+														<div class="col-md-6">
+															<div class="form-group">
+																<div class="input-icon right">
+																	<i class="fa fa-user"></i> <input name="inputName"
+																		type="text" placeholder="Name" class="form-control"
+																		required />
+																</div>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<div class="input-icon right">
+																	<i class="fa fa-graduation-cap"></i> <input
+																		name="inputPassOut" type="text"
+																		placeholder="Passout Year" class="form-control"
+																		required />
+																</div>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<div class="input-icon right">
+																	<i class="fa fa-pinterest-square"></i> <input
+																		name="input10percent" type="text" placeholder="10th %"
+																		class="form-control" required />
+																</div>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<div class="input-icon right">
+																	<i class="fa fa-pinterest-square"></i> <input
+																		name="input12thpercent" type="text" placeholder="12th %"
+																		class="form-control" required />
+																</div>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<input name="inputDegree" type="text" placeholder="Degree"
+																	class="form-control" required />
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<input name="inputDegreePercent" type="text"
+																	placeholder="Degree CGPA" class="form-control" required />
+															</div>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<div class="checkbox">
+															<label> <input tabindex="5" type="checkbox" />&nbsp;
+																I want to receive news and special offers
+															</label>
+														</div>
+													</div>
+													<div class="form-group mbn">
+														<div class="checkbox">
+															<label> <input tabindex="5" type="checkbox" />&nbsp;
+																I agree with the Terms and Conditions
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="form-actions text-right pal">
+													<input type="submit" class="btn btn-primary" value="Submit" />
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
